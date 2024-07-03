@@ -2,6 +2,8 @@
   "name": "tags",
   "version": "0.0.0",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview --port 4173"
